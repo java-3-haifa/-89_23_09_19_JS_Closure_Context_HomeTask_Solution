@@ -1,0 +1,25 @@
+html, body, ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+#gallery{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#gallery .photos{
+}
+
+#gallery .photos img{
+    width: 100%;
+    left: 0;
+    display: none;
+    opacity: 0;
+}
+
+#gallery .photos img:first-child{
+    display: block;
+    opacity: 1;
+}
